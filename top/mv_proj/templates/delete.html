@@ -1,0 +1,20 @@
+{% extends 'main.html' %}
+
+{% block body %}
+
+<div class="container">
+<div class="mt-5" >
+    <form action="" method="post">
+        {% csrf_token %}
+        <h6>Are you want to delete this movie ?</h6>
+        <input type="submit" class="btn btn-primary mt-3">
+    </form>
+</div>
+
+
+</div>
+
+
+{% endblock  %}
+
+
